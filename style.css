@@ -1,0 +1,52 @@
+header{
+    height: 70px;
+    width: 100%;
+    background-color: gray;
+  
+padding-bottom: 100px;
+font-size: larger;
+
+}
+
+a{
+    padding-left: 160px;
+    font-size: 35px;
+}
+table{
+    text-align: center;
+    width: 400px;
+    height: 250px;
+}
+h2{
+    text-align: center;
+}
+footer{
+    background-color: gray;
+    height: 70px;
+    width: 100%;
+    padding-top: 50px;
+}
+p{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+div{
+    text-align: center;
+}
+form{
+    text-align: center;
+    font-size: 30px;
+}
+.middle{
+    text-align: center;
+    border: 2px solid black;
+    width: 30%;
+    height: 100px;
+    font-size: 25px;
+    padding-top: 50px;
+    margin-left: 780px;
+}
+.parent{
+    text-align: center;
+}
