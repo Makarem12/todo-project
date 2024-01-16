@@ -48,5 +48,6 @@ form{
     margin-left: 780px;
 }
 .parent{
-    text-align: center;
+display: flex;
+flex-direction:row;
 }
