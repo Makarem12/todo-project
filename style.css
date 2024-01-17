@@ -41,13 +41,20 @@ form{
 .middle{
     text-align: center;
     border: 2px solid black;
-    width: 30%;
+    width: 300px;
     height: 100px;
-    font-size: 25px;
-    padding-top: 50px;
-    margin-left: 780px;
+    font-size:xx-large;
+font-weight: 900;
+    padding: 50px;
+    margin-left: 550px;
+    
 }
-.parent{
-display: flex;
-flex-direction:row;
+
+
+.image{
+    height: 230px;
+    width: 300px;
+    float: left;
+    padding-left: 250px;
+    padding-top: 40px;
 }
