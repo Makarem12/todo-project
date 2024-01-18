@@ -17,3 +17,88 @@ if(confirmMsg==false){
         alert("Welcome to our tasks website")
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Function to get user input for a question
+function askQuestion(question) {
+    let answer = prompt(question).toLowerCase();
+    if (answer=="yes" || answer=="no") {
+        return answer;}
+        else 
+    {
+        return "invalid";
+    }
+    
+}
+
+// Function to ask three Yes/No questions and store the answers in an array
+function askQuestions() {
+    const answers = [];
+
+    for (let i = 1; i <= 3; i++) {
+        const question = `Question ${i}:please type Yes/No?`;
+        const answer = askQuestion(question);
+        answers.push(answer);
+    }
+
+    return answers;
+}
+
+// Function to print the answers in the console
+function printAnswers(answers) {
+    console.log("Answers:");
+    answers.forEach((answer, index) => {
+        console.log(`Question ${index + 1}: ${answer}`);
+    });
+}
+
+// Main function
+function main() {
+    const userAnswers = askQuestions();
+    printAnswers(userAnswers);
+}
+
+// Run the program
+main();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
