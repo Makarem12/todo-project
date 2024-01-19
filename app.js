@@ -30,6 +30,8 @@ function askQuestion(question) {
 }
 
 
+
+
 function askQuestions() {
     const answers = [];
 
@@ -41,7 +43,6 @@ function askQuestions() {
 
     return answers;
 }
-
 
 function printAnswers(answers) {
     console.log("Answers:");
@@ -58,6 +59,9 @@ function main() {
 
 
 main();
+
+
+
 
 
 
