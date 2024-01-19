@@ -18,20 +18,6 @@ if(confirmMsg==false){
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Function to get user input for a question
 function askQuestion(question) {
     let answer = prompt(question).toLowerCase();
     if (answer=="yes" || answer=="no") {
@@ -43,7 +29,9 @@ function askQuestion(question) {
     
 }
 
-// Function to ask three Yes/No questions and store the answers in an array
+
+
+
 function askQuestions() {
     const answers = [];
 
@@ -56,7 +44,6 @@ function askQuestions() {
     return answers;
 }
 
-// Function to print the answers in the console
 function printAnswers(answers) {
     console.log("Answers:");
     answers.forEach((answer, index) => {
@@ -64,14 +51,31 @@ function printAnswers(answers) {
     });
 }
 
-// Main function
+
 function main() {
     const userAnswers = askQuestions();
     printAnswers(userAnswers);
 }
 
-// Run the program
+
 main();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
