@@ -11,6 +11,8 @@ font-size: larger;
 a{
     padding-left: 160px;
     font-size: 35px;
+    padding-right: 160px;
+    cursor: pointer;
 }
 table{
     text-align: center;
@@ -47,10 +49,12 @@ form{
 font-weight: 900;
     padding: 50px;
     margin-left: 550px;
-    
+    background-color: gray;
 }
 
-
+ a:hover {
+    background-color: #8b7f94;
+  }
 
 
 .image{
